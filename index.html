@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8" />
+    <title>My Profile Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to my Profile Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#interests">Technical Interests</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <img src="images/profile.png" alt="Profile Picture Of Robert Flroea">
+                <div class="about-text">
+                    <p>Name: Robert Florea</p>
+                    <p>Year: 3rd Year</p>
+                    <p>Award: BSc Computer Science</p>
+                    <h3>Hi, im Robert Florea</h3>
+                    <p>I'm a 3rd year BSc Computer Science student with a passion for improving my skills and learning new technologies</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="interests">
+            <h2>Technical Interests</h2>
+            <div class="interests-container">
+                <img src="images/programming.jpg" alt="Placeholder technical image" width="150">
+                <div class="interests-text">
+                    <h3>Programming</h3>
+                    <p>
+                        I am passionate about programming and enjoy creating both useful tools and fun projects.
+                        i enjoy experimenting with new ideas, solving problems through code, and exploring creating ways to create interactive applications.
+                    </p>
+                    <p>
+                        My interests include web development, game design, and learning new programming languages and frameworks.
+                        Whether its building a small game or crafting a web app, i find joy in bringing ideas to life with code.
+                    </p>
+                    </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            
+            <div class="portfolio-item">
+                <img src="images/weather.jpg" alt="Weather App Project Screenshot">
+                <div class="portfolio-text">
+                    <h3>Weather App</h3>
+                    <p>This weather app lets userscheck live weather data by entering a city name. It uses a public API and displays temperature, conditions, and icons</p>
+                    <button onclick="showProjectDetails('weather_app')">View Details</button>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/bmi.jpg" alt="BMI Calculator project screenshot">
+                <div class="portfolio-text">
+                    <h3>BMI Calculator</h3>
+                    <p>This BMI calculator takes height and weight inputs and calculates the user's Body Mass Index, providing health category feedback.</p>
+                    <button onclick="showProjectDetails('bmi_calculator')">View Details</button>
+                </div>
+            </div>
+        </section>
+        <section id="project_description">
+            <p>Click on a project to see details here.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Robert Florea</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
